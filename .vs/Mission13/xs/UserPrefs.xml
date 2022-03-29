@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{341581C5-1A7C-4CE3-9813-8F10F3526270}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Mission13/Models/EFBowlersRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission13/Views/Shared/_Layout.cshtml">
     <Files>
       <File FileName="Mission13/Controllers/HomeController.cs" Line="93" Column="69" />
       <File FileName="Mission13/Components/TeamViewComponent.cs" Line="5" Column="1" />
@@ -7,7 +7,8 @@
       <File FileName="Mission13/Views/Home/AddBowler.cshtml" Line="12" Column="34" />
       <File FileName="Mission13/Views/Home/EditBowler.cshtml" Line="45" Column="46" />
       <File FileName="Mission13/Models/IBowlersRepository.cs" Line="13" Column="42" />
-      <File FileName="Mission13/Models/EFBowlersRepository.cs" Line="32" Column="36" />
+      <File FileName="Mission13/Models/EFBowlersRepository.cs" Line="32" Column="32" />
+      <File FileName="Mission13/Views/Shared/_Layout.cshtml" Line="21" Column="56" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,12 +17,12 @@
             <Node name="Mission13" expanded="True">
               <Node name="Components" expanded="True" />
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="EFBowlersRepository.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
