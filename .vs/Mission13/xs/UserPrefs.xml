@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{341581C5-1A7C-4CE3-9813-8F10F3526270}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission13/Models/EFBowlersRepository.cs">
+    <Files>
+      <File FileName="Mission13/Controllers/HomeController.cs" Line="93" Column="69" />
+      <File FileName="Mission13/Components/TeamViewComponent.cs" Line="5" Column="1" />
+      <File FileName="Mission13/Models/Bowler.cs" Line="1" Column="1" />
+      <File FileName="Mission13/Views/Home/AddBowler.cshtml" Line="12" Column="34" />
+      <File FileName="Mission13/Views/Home/EditBowler.cshtml" Line="45" Column="46" />
+      <File FileName="Mission13/Models/IBowlersRepository.cs" Line="13" Column="42" />
+      <File FileName="Mission13/Models/EFBowlersRepository.cs" Line="32" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mission13" expanded="True">
+            <Node name="Mission13" expanded="True">
+              <Node name="Components" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="EFBowlersRepository.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Mission13 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

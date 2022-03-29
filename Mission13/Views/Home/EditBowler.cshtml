@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Edit Bowler";
+}
+
+<!-- import model -->
+@model Mission13.Models.Bowler
+
+<!-- form to edit the bowler -->
+<form method="post" class="form">
+
+    <label asp-for="BowlerID">Bowler ID: @Model.BowlerID</label>
+    <input type="hidden" asp-for="BowlerID" class="form-control"/>
+    <br />
+
+    <label asp-for="BowlerFirstName">First Name: </label>
+    <input asp-for="BowlerFirstName" class="form-control"/>
+
+    <label asp-for="BowlerMiddleInit">Middle Initial: </label>
+    <input asp-for="BowlerMiddleInit" class="form-control"/>
+
+    <label asp-for="BowlerLastName">Last Name: </label>
+    <input asp-for="BowlerLastName" class="form-control" />
+
+    <label asp-for="BowlerAddress">Address: </label>
+    <input asp-for="BowlerAddress" class="form-control" />
+
+    <label asp-for="BowlerCity">City: </label>
+    <input asp-for="BowlerCity" class="form-control" />
+
+    <label asp-for="BowlerState">State: </label>
+    <input asp-for="BowlerState" class="form-control" />
+
+    <label asp-for="BowlerZip">Zip: </label>
+    <input asp-for="BowlerZip" class="form-control" />
+
+    <label asp-for="BowlerPhoneNumber">Phone: </label>
+    <input asp-for="BowlerPhoneNumber" class="form-control" />
+    <br />
+
+    <label asp-for="TeamID">Team: </label>
+    <select asp-for="TeamID">
+        <option value="1">Marlins</option>
+        <option value="2">Sharks</option>
+        <option value="3">Terrapins</option>
+        <option value="4">Barracudas</option>
+        <option value="5">Dolphins</option>
+        <option value="6">Orcas</option>
+        <option value="7">Manatees</option>
+        <option value="8">Swordfish</option>
+        <option value="9">Huckleberrys</option>
+        <option value="10">MintJuleps</option>
+    </select>
+
+    <!-- throws an error if required fields are not met -->
+    <div asp-validation-summary="All"></div>
+    <div class="float-end">
+        <input class="btn btn-sm btn-primary" type="submit" value="Save" />
+    </div>
+</form>

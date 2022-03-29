@@ -1,0 +1,22 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model IEnumerable<string>
+
+<!-- calls the TeamNameViewComponent to change the title of the table
+    depending on the chosen team -->
+<div>
+    @if (ViewBag.SelectedType != null)
+    {
+            <h1>@ViewBag.SelectedType</h1>
+            <br />
+    }
+    else
+    {
+        <h1>Bowlers</h1>
+        <br />
+    }
+</div>
